@@ -1,0 +1,24 @@
+/* Global Styles */
+
+html {
+  box-sizing: border-box;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: inherit;
+
+  /* outline: 1px solid red !important; */
+}
+
+:root {
+  --title: 'COCOGOOSE', sans-serif;
+  --text: montserrat, sans-serif;
+}
